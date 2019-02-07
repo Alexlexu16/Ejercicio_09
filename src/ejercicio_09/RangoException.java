@@ -9,14 +9,12 @@ package ejercicio_09;
  *
  * @author alexlexu
  */
-public class Ejercicio_09 {
+public class RangoException extends Exception
+{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here 
-        
+    public RangoException(String message)
+    {
+        super(message);
     }
     
 }
