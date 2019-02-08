@@ -16,7 +16,16 @@ public class Ejercicio_09 {
      */
     public static void main(String[] args) {
         // TODO code application logic here 
-        
+        Alumno alumno = new Alumno("Tomás Pepe");
+        try{
+            alumno.pedirNotas();
+            alumno.modificarNota(3, 7.8);
+            alumno.imprimirCalificaciones();
+        }
+        catch(Exception ex)
+        {
+            System.out.println(ex.getMessage());
+        }
     }
     
 }
